@@ -1,0 +1,66 @@
+.products {
+  width:  100%;
+  padding-top: 75px;
+  background-image: url("../images/cana_footer.jpeg");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.containers {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px 70px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  height: 300px;
+  width: 800px;
+}
+
+.container__item {
+  background-color: #e09f3e;
+  width: 50%;
+}
+
+.container:hover .container__item {
+  background-color: #fb8500;
+}
+
+.container__item-paragraph {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 75px ;
+  padding-bottom: 10px;
+}
+
+.container__item-link {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  text-decoration: none;
+  background-color: #f4f4f4;
+  color: #000;
+  border-radius: 5px;
+}
+
+.container:hover .container__item-link{
+  background-color: #023047;
+  color: white
+}
+
+.container__img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.container__img-product {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
