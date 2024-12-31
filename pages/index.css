@@ -1,0 +1,11 @@
+@import url("../blocks/nav.css");
+@import url("../blocks/carrusel.css");
+@import url("../blocks/products.css");
+@import url("../blocks/footer.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
