@@ -46,11 +46,7 @@ body {
 
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
   .nav__link {
-    color: white;
     font-size: 25px;
-    text-decoration: none;
-    font-weight: bold;
-
   }
 
   .nav__logo {
@@ -79,17 +75,12 @@ body {
   }
 
   .nav__link {
-    color: white;
     font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
   }
 
 }
 
 @media screen and (min-width: 100px) and (max-width:767px) {
-
-
   .nav__logo {
     padding: 0;
     margin: auto;
@@ -102,19 +93,15 @@ body {
     flex-direction: row;
     padding: 0;
     margin: auto;
-    column-gap: 10px;
+    column-gap: 3px;
   }
 
   .nav__link {
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: bold;
+    font-size: 17px;
   }
 
   .lista {
     transform: none;
-    background-color: #fb8500;
   }
 
   .lis {
@@ -123,6 +110,5 @@ body {
 
   .lis:hover {
     transform: none;
-    background-color: #fb8500;
   }
 }
