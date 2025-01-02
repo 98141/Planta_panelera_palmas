@@ -45,10 +45,6 @@ body {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
-  .nav {
-    background-color:  #2ed875;
-  }
-
   .nav__link {
     color: white;
     font-size: 25px;
@@ -92,9 +88,7 @@ body {
 }
 
 @media screen and (min-width: 100px) and (max-width:767px) {
-  .nav {
-    background-color:  #db1a1a;
-  }
+
 
   .nav__logo {
     padding: 0;
@@ -105,13 +99,15 @@ body {
 
   .nav__links {
     display: flex;
-    flex-direction: column;
-    padding-right: 30px;
+    flex-direction: row;
+    padding: 0;
+    margin: auto;
+    column-gap: 10px;
   }
 
   .nav__link {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
   }
