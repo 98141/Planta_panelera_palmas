@@ -46,7 +46,6 @@ body {
 
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
   .nav {
-
     background-color:  #2ed875;
   }
 
@@ -105,13 +104,14 @@ body {
   }
 
   .nav__links {
-    column-gap: 5px;
-    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
   }
 
   .nav__link {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
   }
@@ -122,7 +122,7 @@ body {
   }
 
   .lis {
-    padding: 15px 5px;
+    padding: 5px 0;
   }
 
   .lis:hover {

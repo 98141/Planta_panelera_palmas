@@ -75,10 +75,32 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  
+
 
 }
 
 @media screen and (min-width: 100px) and (max-width:767px) {
+  .footer__container-paragraph {
+    font-size: 25px;
+    max-width: 100%;
+    margin: 0 20px;
+    padding: 25px 0;
+  }
 
+  .footer__container {
+    padding: 10px;
+  }
+
+  .footer__container-information {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+
+  }
+
+  .footer__container-redes a {
+    font-size: 25px;
+  }
 }

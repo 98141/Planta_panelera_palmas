@@ -86,5 +86,25 @@ button:hover {
 }
 
 @media screen and (min-width: 100px) and (max-width:767px) {
+  .carrusel {
+    max-width: 100%;
+    height: 100%;
+  }
 
+  .message {
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    padding: 0 ;
+    width: 50%;
+  }
+
+  .img__footer {
+    width: 50%;
+    object-fit: cover;
+
+  }
 }

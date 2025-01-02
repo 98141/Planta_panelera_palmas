@@ -84,5 +84,23 @@
 }
 
 @media screen and (min-width: 100px) and (max-width:767px) {
+  .products {
+    padding: 25px 0;
+  }
 
+  .container {
+    height: 200px;
+  }
+
+  .container__item-paragraph {
+    font-size: 30px;
+    margin-top: 25px ;
+
+  }
+
+  .container__item-link {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    text-decoration: none;
+  }
 }
