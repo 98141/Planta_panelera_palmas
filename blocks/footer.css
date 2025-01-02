@@ -68,12 +68,14 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
-
+  .footer__container-paragraph {
+    font-size: 40px;
+  }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
+  
 
 }
 

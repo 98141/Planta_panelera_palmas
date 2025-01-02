@@ -1,3 +1,6 @@
+body {
+  width: 100%;
+}
 .nav {
   display: flex;
   flex-flow: row wrap;
@@ -5,6 +8,7 @@
   align-items: center;
   margin: 0;
   background-color:  #219ebc;
+  width: 100%;
 }
 
 .nav__logo {
@@ -24,7 +28,6 @@
   font-size: 35px;
   text-decoration: none;
   font-weight: bold;
-
 }
 
 .lis {
@@ -43,12 +46,8 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
   .nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    background-color:  #219ebc;
+
+    background-color:  #2ed875;
   }
 
   .nav__link {
@@ -65,34 +64,69 @@
   }
 
   .nav__links {
-    margin: 0;
     padding-right: 20px;
-    list-style-type: none;
-    display: flex;
     column-gap: 10px;
   }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    background-color:  #a89a19;
+  .nav__logo {
+    padding: 0;
+    padding-left: 20px;
+    width:  200px;
+    height: 125px;
+  }
+
+  .nav__links {
+    column-gap: 15px;
+    padding-right: 10px;
+  }
+
+  .nav__link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
   }
 
 }
 
 @media screen and (min-width: 100px) and (max-width:767px) {
   .nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    background-color:  #20d32f;
+    background-color:  #db1a1a;
+  }
+
+  .nav__logo {
+    padding: 0;
+    margin: auto;
+    width:  150px;
+    height: 94px;
+  }
+
+  .nav__links {
+    column-gap: 5px;
+    padding: 0 10px;
+  }
+
+  .nav__link {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .lista {
+    transform: none;
+    background-color: #fb8500;
+  }
+
+  .lis {
+    padding: 15px 5px;
+  }
+
+  .lis:hover {
+    transform: none;
+    background-color: #fb8500;
   }
 }

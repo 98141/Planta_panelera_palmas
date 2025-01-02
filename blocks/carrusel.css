@@ -6,7 +6,7 @@
 .carrusel {
   position: relative;
   max-width: 100%;
-  height: 600px;
+  height: 800px;
   margin: auto;
   overflow: hidden; /*con esta funcion lo que se logra es ocultar lo que se desborda*/
 }
@@ -73,7 +73,7 @@ button:hover {
   .carrusel {
     position: relative;
     max-width: 100%;
-    height: 400px;
+    height: 500px;
     margin: auto;
     overflow: hidden;
   }
