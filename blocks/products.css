@@ -2,7 +2,7 @@
   width: 100%;
   padding: 75px 0;
   background-image: url("../images/cana_footer.jpeg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
