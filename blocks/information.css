@@ -1,0 +1,28 @@
+.information {
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.information__item {
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.information__item-title {
+  text-align: center;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.information__item_paragraph {
+  display: none;
+  margin-top: 5px;
+  padding-left: 15px;
+  color: #555;
+  font-size: 20px;
+}

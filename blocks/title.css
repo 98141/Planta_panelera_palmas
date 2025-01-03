@@ -1,0 +1,14 @@
+.title {
+  background-color: black;
+  text-align: center;
+  font-size: 80px;
+}
+
+.title__name {
+  padding: 10px 0;
+  color: #fb8500;
+}
+
+span {
+  color: white;
+}
